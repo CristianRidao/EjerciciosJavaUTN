@@ -20,7 +20,9 @@ public class main {
      */
     public static void main(String[] args) {
         List<String> listaAlumnos = new ArrayList<>();
-        List<String>listaAnimales = new ArrayList<>(Arrays.asList("leon","tigre","oso","lobo","pantera"));
+        List<String>listaAnimales = new ArrayList<>(Arrays.asList("leon","tigre",
+                                                                     "oso","lobo",
+                                                                     "pantera"));
         listaAlumnos.add("cristian");
         listaAlumnos.add("jesica");
         listaAlumnos.add("damian");
